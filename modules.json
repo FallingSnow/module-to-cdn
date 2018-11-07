@@ -296,6 +296,15 @@
       }
     }
   },
+  "chroma-js": {
+    "var": "chroma",
+    "versions": {
+      ">= 1.4.0": {
+        "development": "https://unpkg.com/chroma-js@[version]/chroma.js",
+        "production": "https://unpkg.com/chroma-js@[version]/chroma.min.js"
+      }
+    }
+  },
   "core-js": {
     "var": "core",
     "versions": {
